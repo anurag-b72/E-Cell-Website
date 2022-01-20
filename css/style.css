@@ -15,7 +15,7 @@
   --text-color4: #59d8fc; /* About-us content*/
   --text-color5: #dbb67e; 
   --text-color6: white;
-  --foreground2: #333333;
+  --foreground2: #333333;     
   --foreground3: #024668;
 }
 html,body{
@@ -104,14 +104,4 @@ section #home .logo
 }
 .gallery-link:hover a span{
     box-shadow: 2px 2px 3px var(--foreground);
-}
-/* discord logo */
-.discordlogo{
-    position: fixed;
-    z-index: 2;
-    height: 5rem;
-    right: 1rem;
-    bottom: 1rem;
-    -webkit-filter: drop-shadow( 2px 2px 2px rgb(255, 255, 255));
-    filter: drop-shadow(2px 2px 2px 2px rgb(255, 255, 255));
 }
